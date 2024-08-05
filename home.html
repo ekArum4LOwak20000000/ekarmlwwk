@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desain Halaman Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        .profile-card {
+            margin-top: 50px;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card-custom {
+            background-color: burlywood;
+        }
+
+        .card-header-custom {
+            background-color: rgb(110, 80, 39);
+            color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="home.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+    
+    <div class="container profile-card">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card card-custom">
+                    <div class="card-body text-center">
+                        <img src="foto.img/eka.img.jpeg" class="profile-img" alt="Eka Septiani Rumalowak">
+                        <h1 class="card-title mt-3">Eka Septiani Rumalowak</h1>
+                        <p class="card-text">(Mahasiswa)</p>
+                        <p class="card-text">Hi, saya adalah web developer. Saat ini sedang belajar HTML di Petani Kode.</p>
+                        <div class="card bg-light mb-3 card-custom">
+                            <div class="card-header card-header-custom">Skill</div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li><strong>HTML:</strong> Expert</li>
+                                    <li><strong>CSS:</strong> Beginner</li>
+                                    <li><strong>JavaScript:</strong> Beginner</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card bg-light mb-3 card-custom">
+                            <div class="card-header card-header-custom">Pengalaman</div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li>Pernah bekerja di..</li>
+                                    <li>Menjadi leader di komunitas</li>
+                                    <li>Kontributor open source</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2020 Eka Septiani Rumalowak.</p>
+    </footer>
+</body>
+
+</html>
